@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akduman Academy</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fdf9f4;
+      color: #2d2d2d;
+    }
+    header {
+      background-color: #800000;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    header nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1588072432836-e10032774350') center/cover no-repeat;
+      padding: 6rem 2rem;
+      text-align: center;
+      color: white;
+    }
+    .hero h1 {
+      font-size: 3.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .hero p {
+      font-size: 1.5rem;
+    }
+    .section {
+      padding: 3rem 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .section h2 {
+      color: #800000;
+      font-size: 2rem;
+    }
+    .programs ul, .campuses ul {
+      list-style: none;
+      padding: 0;
+    }
+    .programs li, .campuses li {
+      background-color: #ffe5b4;
+      margin: 1rem 0;
+      padding: 1rem;
+      border-left: 6px solid #800000;
+    }
+    .gallery {
+      background-color: #eee;
+      padding: 2rem;
+      text-align: center;
+    }
+    .gallery img {
+      width: 300px;
+      height: auto;
+      margin: 1rem;
+      border: 4px solid #800000;
+    }
+    .contact {
+      background-color: #800000;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    button {
+      background-color: #ffcc00;
+      color: #800000;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Akduman Academy</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#programs">Programs</a>
+      <a href="#campuses">Campuses</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Your Talent, Your Future</h1>
+    <p>World-class education meets elite sports training</p>
+    <button>Apply Now</button>
+  </section>
+
+  <section class="section" id="about">
+    <h2>About Akduman Academy</h2>
+    <p>Akduman Academy is a global educational institution dedicated to combining academic excellence with professional-level athletic training. With a mission to empower young talent across the world, we support students in achieving their full potential, regardless of background.</p>
+  </section>
+
+  <section class="section programs" id="programs">
+    <h2>Our Programs</h2>
+    <ul>
+      <li><strong>Academic:</strong> Business, Engineering, Humanities, Science</li>
+      <li><strong>Sports:</strong> Basketball, Swimming, Football, Athletics</li>
+      <li><strong>Creative Arts:</strong> Digital Design, Visual Arts, Photography</li>
+    </ul>
+  </section>
+
+  <section class="section campuses" id="campuses">
+    <h2>Our Global Campuses</h2>
+    <ul>
+      <li>Istanbul, Turkey</li>
+      <li>London, UK</li>
+      <li>Berlin, Germany</li>
+      <li>Doha, Qatar</li>
+      <li>Los Angeles, Boston, and Florida, USA</li>
+    </ul>
+  </section>
+
+  <section class="gallery" id="gallery">
+    <h2>Gallery</h2>
+    <img src="https://images.unsplash.com/photo-1584751841556-c5b2c4fc4d9f" alt="Students in class">
+    <img src="https://images.unsplash.com/photo-1603297631491-aac8d1cbe5c9" alt="Sports training">
+    <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b" alt="Academy campus">
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@akdumanacademy.com</p>
+    <p>Phone: +1 555 123 4567</p>
+    <p>&copy; 2025 Akduman Academy. All rights reserved.</p>
+  </section>
+</body>
+</html>
